@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 977ee481f67675642bbdad6ccd4e3d40, type: 3}
+  m_Name: Plate_MeatMeal
+  m_EditorClassIdentifier: 
+  inputs:
+  - {fileID: 11400000, guid: 23f01c1a9dd531041b657f02a54d71eb, type: 2}
+  requiredStation: 2
+  duration: 0
+  output: {fileID: 11400000, guid: 816b45dabd3039443b7cdf76f7f2f9ec, type: 2}

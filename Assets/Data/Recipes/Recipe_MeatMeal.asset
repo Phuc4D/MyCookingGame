@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b40692271d18674da2b3c9c6567f4f6, type: 3}
+  m_Name: Recipe_MeatMeal
+  m_EditorClassIdentifier: 
+  recipeName: "Th\u1ECBt N\u01B0\u1EDBng"
+  finalMeal: {fileID: 11400000, guid: 816b45dabd3039443b7cdf76f7f2f9ec, type: 2}
+  recipeCardSprite: {fileID: 5335510183781546509, guid: aeabc8b8955840045bb249c7ef04b30a, type: 3}
+  scoreValue: 50
+  timeLimit: 60

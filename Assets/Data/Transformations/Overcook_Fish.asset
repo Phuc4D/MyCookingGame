@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 977ee481f67675642bbdad6ccd4e3d40, type: 3}
+  m_Name: Overcook_Fish
+  m_EditorClassIdentifier: 
+  inputs:
+  - {fileID: 11400000, guid: 090fb5a2017d87b428f191ce1cdb11a3, type: 2}
+  requiredStation: 1
+  duration: 5
+  output: {fileID: 11400000, guid: f211329673048654ab413902ed01c3bc, type: 2}

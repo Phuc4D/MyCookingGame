@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52705895c0f18d54cad4dc3771ef49f8, type: 3}
+  m_Name: cooked_fish_tomato
+  m_EditorClassIdentifier: 
+  id: cooked_fish_tomato
+  displayName: Cooked Fish Tomato
+  sprite: {fileID: -218334824134563613, guid: b2bef3bb9f4a0484f85cadbc975e69ff, type: 3}
+  category: 2

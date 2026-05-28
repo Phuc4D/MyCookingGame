@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b40692271d18674da2b3c9c6567f4f6, type: 3}
+  m_Name: Recipe_SushiPickle
+  m_EditorClassIdentifier: 
+  recipeName: "Sushi D\u01B0a Chu\u1ED9t"
+  finalMeal: {fileID: 11400000, guid: 7082b1db3f6c85749b9bdd3c111d2c36, type: 2}
+  recipeCardSprite: {fileID: -5869071512772623427, guid: c9ee6c19d0cfbef4db9ca5d3b29e3b39, type: 3}
+  scoreValue: 100
+  timeLimit: 90

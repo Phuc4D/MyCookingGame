@@ -1,0 +1,85 @@
+<h2>Design — Layer 2: Runtime (MonoBehaviours)</h2>
+<p class="subtitle">Các GameObject sống trong scene. Chúng <em>không chứa data</em> — chỉ query RecipeDatabaseSO và thực thi logic.</p>
+
+<div style="display:flex; flex-direction:column; gap:1rem; margin-top:1rem;">
+
+  <div style="background:rgba(99,102,241,0.15); border:1px solid rgba(99,102,241,0.4); border-radius:10px; padding:1rem;">
+    <p class="label" style="color:#a5b4fc">FoodItem : MonoBehaviour</p>
+    <p style="font-size:0.8rem; color:#94a3b8; margin-bottom:0.5rem">Gắn vào mỗi GameObject food trong scene. Chịu trách nhiệm duy nhất: track state hiện tại và cập nhật sprite.</p>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.8rem;">
+      <div>
+        <p style="font-size:0.75rem; color:#64748b; margin-bottom:0.3rem">Fields</p>
+        <code style="font-size:0.78rem; line-height:1.8; display:block; color:#e2e8f0">
+          FoodStateSO currentState<br>
+          SpriteRenderer spriteRenderer
+        </code>
+      </div>
+      <div>
+        <p style="font-size:0.75rem; color:#64748b; margin-bottom:0.3rem">Behaviour</p>
+        <code style="font-size:0.78rem; line-height:1.8; display:block; color:#e2e8f0">
+          void ChangeState(FoodStateSO next)<br>
+          &nbsp;→ cập nhật sprite tự động
+        </code>
+      </div>
+    </div>
+  </div>
+
+  <div style="background:rgba(16,185,129,0.15); border:1px solid rgba(16,185,129,0.4); border-radius:10px; padding:1rem;">
+    <p class="label" style="color:#6ee7b7">StationBase : MonoBehaviour (abstract)</p>
+    <p style="font-size:0.8rem; color:#94a3b8; margin-bottom:0.5rem">Base class cho mọi trạm làm việc. Quản lý slots và gọi RecipeDatabaseSO khi slot thay đổi.</p>
+    <code style="font-size:0.78rem; line-height:1.8; display:block; color:#e2e8f0">
+      RecipeDatabaseSO database &nbsp;&nbsp;// inject qua Inspector<br>
+      StationType stationType<br>
+      List&lt;FoodItem&gt; slots &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// food đang ở trong station<br>
+      <br>
+      void AddFood(FoodItem food)<br>
+      void RemoveFood(FoodItem food)<br>
+      protected abstract void TryProcess()
+    </code>
+    <p style="font-size:0.75rem; color:#64748b; margin-top:0.5rem">Khi AddFood/RemoveFood → tự gọi TryProcess(). TryProcess() query database, nếu match thì xử lý.</p>
+  </div>
+
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+    <div style="background:rgba(245,158,11,0.12); border:1px solid rgba(245,158,11,0.35); border-radius:10px; padding:1rem;">
+      <p class="label" style="color:#fcd34d">InstantStation : StationBase</p>
+      <p style="font-size:0.78rem; color:#94a3b8; margin-bottom:0.4rem">ChoppingBoard, PlatingTable</p>
+      <code style="font-size:0.78rem; line-height:1.7; display:block; color:#e2e8f0">
+        TryProcess():<br>
+        &nbsp;→ query database<br>
+        &nbsp;→ nếu match: destroy inputs,<br>
+        &nbsp;&nbsp;&nbsp;spawn output FoodItem<br>
+        &nbsp;→ nếu không: không làm gì
+      </code>
+    </div>
+    <div style="background:rgba(239,68,68,0.12); border:1px solid rgba(239,68,68,0.35); border-radius:10px; padding:1rem;">
+      <p class="label" style="color:#fca5a5">TimedStation : StationBase</p>
+      <p style="font-size:0.78rem; color:#94a3b8; margin-bottom:0.4rem">Stove, Oven</p>
+      <code style="font-size:0.78rem; line-height:1.7; display:block; color:#e2e8f0">
+        float progress<br>
+        bool isCooking<br>
+        <br>
+        TryProcess():<br>
+        &nbsp;→ nếu match: start UniTask<br>
+        &nbsp;&nbsp;&nbsp;countdown duration giây<br>
+        &nbsp;→ xong: spawn output
+      </code>
+    </div>
+  </div>
+
+  <div style="background:rgba(139,92,246,0.15); border:1px solid rgba(139,92,246,0.4); border-radius:10px; padding:1rem;">
+    <p class="label" style="color:#c4b5fd">IngredientSource : MonoBehaviour</p>
+    <p style="font-size:0.8rem; color:#94a3b8; margin-bottom:0.5rem">Gắn vào kệ nguyên liệu (ingredient shelf). Khi Chef tương tác → spawn FoodItem ở trạng thái Raw.</p>
+    <code style="font-size:0.78rem; line-height:1.8; display:block; color:#e2e8f0">
+      FoodStateSO ingredient &nbsp;// set trong Inspector (fish.asset, meat.asset...)<br>
+      void OnInteract() → Instantiate FoodItem với state = ingredient
+    </code>
+  </div>
+
+</div>
+
+<div style="margin-top:1.2rem; padding:0.9rem; background:rgba(255,255,255,0.04); border-radius:8px;">
+  <p class="label">Tại sao StationBase là abstract?</p>
+  <p style="font-size:0.82rem; color:#94a3b8">
+    ChoppingBoard và Stove đều có slots, đều query database — nhưng khác nhau ở <em>cách xử lý sau khi match</em>: instant vs timed. Abstract class tránh duplicate code, mỗi subclass chỉ override đúng phần khác biệt.
+  </p>
+</div>

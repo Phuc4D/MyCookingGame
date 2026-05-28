@@ -1,0 +1,2626 @@
+fileFormatVersion: 2
+guid: f5e4d493a14ada44c911a8cc780fd89d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8176124085151596695
+    second: Chef2Atlas_0
+  - first:
+      213: 3260400173877916276
+    second: Chef2Atlas_1
+  - first:
+      213: 2328655861547757944
+    second: Chef2Atlas_2
+  - first:
+      213: 2750977817216042659
+    second: Chef2Atlas_3
+  - first:
+      213: -8822609210169702896
+    second: Chef2Atlas_4
+  - first:
+      213: -334080172429522514
+    second: Chef2Atlas_5
+  - first:
+      213: 6786756469035727490
+    second: Chef2Atlas_6
+  - first:
+      213: -4506160478715553008
+    second: Chef2Atlas_7
+  - first:
+      213: -2625808346033944104
+    second: Chef2Atlas_8
+  - first:
+      213: 7303066521755095013
+    second: Chef2Atlas_9
+  - first:
+      213: -7923502111714514597
+    second: Chef2Atlas_10
+  - first:
+      213: -2995342333672345549
+    second: Chef2Atlas_11
+  - first:
+      213: -350922597677933829
+    second: Chef2Atlas_12
+  - first:
+      213: 2171524109640637557
+    second: Chef2Atlas_13
+  - first:
+      213: -5340856019920559777
+    second: Chef2Atlas_14
+  - first:
+      213: -1369430346462722967
+    second: Chef2Atlas_15
+  - first:
+      213: 4169135531161746114
+    second: Chef2Atlas_16
+  - first:
+      213: 7424122966836296648
+    second: Chef2Atlas_17
+  - first:
+      213: 6691820173402784921
+    second: Chef2Atlas_18
+  - first:
+      213: 635476510150658145
+    second: Chef2Atlas_19
+  - first:
+      213: -3792883878799751550
+    second: Chef2Atlas_20
+  - first:
+      213: -8879204953742305414
+    second: Chef2Atlas_21
+  - first:
+      213: 5879780655103431331
+    second: Chef2Atlas_22
+  - first:
+      213: 3967832773790032188
+    second: Chef2Atlas_23
+  - first:
+      213: -369565673811797180
+    second: Chef2Atlas_24
+  - first:
+      213: 8944995339186986224
+    second: Chef2Atlas_25
+  - first:
+      213: 3370196682060495131
+    second: Chef2Atlas_26
+  - first:
+      213: -3829571447574546512
+    second: Chef2Atlas_27
+  - first:
+      213: 689248608533047582
+    second: Chef2Atlas_28
+  - first:
+      213: -8107654806077554627
+    second: Chef2Atlas_29
+  - first:
+      213: -7185778636633173667
+    second: Chef2Atlas_30
+  - first:
+      213: 2402959654688096753
+    second: Chef2Atlas_31
+  - first:
+      213: -6986325380380655756
+    second: Chef2Atlas_32
+  - first:
+      213: -2792382852413608467
+    second: Chef2Atlas_33
+  - first:
+      213: -7574914245229481920
+    second: Chef2Atlas_34
+  - first:
+      213: -3667900883207518403
+    second: Chef2Atlas_35
+  - first:
+      213: 795827382162742857
+    second: Chef2Atlas_36
+  - first:
+      213: 7060558852702628865
+    second: Chef2Atlas_37
+  - first:
+      213: 8433931575177864610
+    second: Chef2Atlas_38
+  - first:
+      213: 6166408908746014501
+    second: Chef2Atlas_39
+  - first:
+      213: 5066226901876094571
+    second: Chef2Atlas_40
+  - first:
+      213: 8983058068235952801
+    second: Chef2Atlas_41
+  - first:
+      213: -3079160432219803421
+    second: Chef2Atlas_42
+  - first:
+      213: -3431186183826876189
+    second: Chef2Atlas_43
+  - first:
+      213: 81941510062243948
+    second: Chef2Atlas_44
+  - first:
+      213: -8955476207120114953
+    second: Chef2Atlas_45
+  - first:
+      213: -5176816024943555931
+    second: Chef2Atlas_46
+  - first:
+      213: 1781444942405514430
+    second: Chef2Atlas_47
+  - first:
+      213: 8639902834313830289
+    second: Chef2Atlas_48
+  - first:
+      213: 2245626510789069467
+    second: Chef2Atlas_49
+  - first:
+      213: 1261141336064791405
+    second: Chef2Atlas_50
+  - first:
+      213: -5610370417657356203
+    second: Chef2Atlas_51
+  - first:
+      213: -8579998027552170992
+    second: Chef2Atlas_52
+  - first:
+      213: -6899005801048657435
+    second: Chef2Atlas_53
+  - first:
+      213: 8863177911880293953
+    second: Chef2Atlas_54
+  - first:
+      213: 391968771736533161
+    second: Chef2Atlas_55
+  - first:
+      213: -8660672008794896550
+    second: Chef2Atlas_56
+  - first:
+      213: 4440684122626828749
+    second: Chef2Atlas_57
+  - first:
+      213: -1943534773698757630
+    second: Chef2Atlas_58
+  - first:
+      213: 8939905977196825796
+    second: Chef2Atlas_59
+  - first:
+      213: 1214763751311217026
+    second: Chef2Atlas_60
+  - first:
+      213: 6171690251979269586
+    second: Chef2Atlas_61
+  - first:
+      213: 5946034346135495618
+    second: Chef2Atlas_62
+  - first:
+      213: 2023474716560411592
+    second: Chef2Atlas_63
+  - first:
+      213: 3642145118309139285
+    second: Chef2Atlas_64
+  - first:
+      213: 5784571703221722982
+    second: Chef2Atlas_65
+  - first:
+      213: 4381630623800751420
+    second: Chef2Atlas_66
+  - first:
+      213: 6927307182059099837
+    second: Chef2Atlas_67
+  - first:
+      213: -6298105300525595491
+    second: Chef2Atlas_68
+  - first:
+      213: 7803496438834927766
+    second: Chef2Atlas_69
+  - first:
+      213: -4672460644338512627
+    second: Chef2Atlas_70
+  - first:
+      213: 5870966058170534216
+    second: Chef2Atlas_71
+  - first:
+      213: -2600636142489873936
+    second: Chef2Atlas_72
+  - first:
+      213: 2164901954218407549
+    second: Chef2Atlas_73
+  - first:
+      213: -7677070686056881137
+    second: Chef2Atlas_74
+  - first:
+      213: -7412547995074494642
+    second: Chef2Atlas_75
+  - first:
+      213: -4017651890172312972
+    second: Chef2Atlas_76
+  - first:
+      213: 4581338420407453889
+    second: Chef2Atlas_77
+  - first:
+      213: -6635729706199909947
+    second: Chef2Atlas_78
+  - first:
+      213: -5501160688382345543
+    second: Chef2Atlas_79
+  - first:
+      213: -2134516030222834871
+    second: Chef2Atlas_80
+  - first:
+      213: -440456862300712201
+    second: Chef2Atlas_81
+  - first:
+      213: 437858714128013816
+    second: Chef2Atlas_82
+  - first:
+      213: 6584514367434647620
+    second: Chef2Atlas_83
+  - first:
+      213: 4725345721284065969
+    second: Chef2Atlas_84
+  - first:
+      213: -4498936394240637356
+    second: Chef2Atlas_85
+  - first:
+      213: -6406209746656867306
+    second: Chef2Atlas_86
+  - first:
+      213: 2691175326587132400
+    second: Chef2Atlas_87
+  - first:
+      213: 6052155177122662073
+    second: Chef2Atlas_88
+  - first:
+      213: 169360410089501709
+    second: Chef2Atlas_89
+  - first:
+      213: -8439427085125144157
+    second: Chef2Atlas_90
+  - first:
+      213: 8966629877616860358
+    second: Chef2Atlas_91
+  - first:
+      213: -7886710866390091257
+    second: Chef2Atlas_92
+  - first:
+      213: 5126145851905835633
+    second: Chef2Atlas_93
+  - first:
+      213: 3829531370997190518
+    second: Chef2Atlas_94
+  - first:
+      213: -5425228183706152261
+    second: Chef2Atlas_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chef2Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 189
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7900af6598d677170800000000000000
+      internalID: 8176124085151596695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 189
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4727d9d0fa44f3d20800000000000000
+      internalID: 3260400173877916276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 189
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8717fa71b2c015020800000000000000
+      internalID: 2328655861547757944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 189
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6442cdfbf6d2620800000000000000
+      internalID: 2750977817216042659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 189
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016ceb3eaabcf8580800000000000000
+      internalID: -8822609210169702896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_5
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 189
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea946db6adb1d5bf0800000000000000
+      internalID: -334080172429522514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_6
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 189
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a75f10d076f2e50800000000000000
+      internalID: 6786756469035727490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_7
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 189
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b51455be6e671c0800000000000000
+      internalID: -4506160478715553008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_8
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 189
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9046ea8314f8bd0800000000000000
+      internalID: -2625808346033944104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_9
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 189
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef8248ee44b95560800000000000000
+      internalID: 7303066521755095013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_10
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 189
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59e2365fc01a0290800000000000000
+      internalID: -7923502111714514597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_11
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 189
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33035cc74086e66d0800000000000000
+      internalID: -2995342333672345549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_12
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 189
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfadfb5b1c5412bf0800000000000000
+      internalID: -350922597677933829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_13
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 189
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c93582cadc22e10800000000000000
+      internalID: 2171524109640637557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_14
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 189
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51e0283fb771e5b0800000000000000
+      internalID: -5340856019920559777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_15
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 125
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964037efa5ecefce0800000000000000
+      internalID: -1369430346462722967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_16
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 189
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cafa533daebbd930800000000000000
+      internalID: 4169135531161746114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_17
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 189
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cbb81fe088c70760800000000000000
+      internalID: 7424122966836296648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_18
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 189
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99447703efe1edc50800000000000000
+      internalID: 6691820173402784921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_19
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 125
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16882a2e48aa1d800800000000000000
+      internalID: 635476510150658145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_20
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 189
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286c5d13538fc5bc0800000000000000
+      internalID: -3792883878799751550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_21
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 125
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a771d4c732ab6c480800000000000000
+      internalID: -8879204953742305414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_22
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 189
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a257a87a5d299150800000000000000
+      internalID: 5879780655103431331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_23
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 189
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3168e1a2e2901730800000000000000
+      internalID: 3967832773790032188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_24
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 125
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b154b4af90fdaf0800000000000000
+      internalID: -369565673811797180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_25
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 189
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fcd3cd4ed1032c70800000000000000
+      internalID: 8944995339186986224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_26
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 189
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b197a69b60855ce20800000000000000
+      internalID: 3370196682060495131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_27
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 125
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b73751fe01aadac0800000000000000
+      internalID: -3829571447574546512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_28
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 189
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e196b8925f3b09900800000000000000
+      internalID: 689248608533047582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_29
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 189
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30424af8e2db7f80800000000000000
+      internalID: -8107654806077554627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_30
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 125
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5193e0e66cf64c90800000000000000
+      internalID: -7185778636633173667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_31
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 189
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f187431317095120800000000000000
+      internalID: 2402959654688096753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_32
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 189
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f7d19e4169b0f90800000000000000
+      internalID: -6986325380380655756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_33
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 189
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedaef427967f39d0800000000000000
+      internalID: -2792382852413608467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_34
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 125
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040fc09a0af70e690800000000000000
+      internalID: -7574914245229481920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_35
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 189
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d370311849ff81dc0800000000000000
+      internalID: -3667900883207518403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_36
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 189
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ed650a9c85b0b00800000000000000
+      internalID: 795827382162742857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_37
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 125
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c641b3ed42cf160800000000000000
+      internalID: 7060558852702628865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_38
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 189
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a56d6e25185b0570800000000000000
+      internalID: 8433931575177864610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_39
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 123
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f3c914b3c739550800000000000000
+      internalID: 6166408908746014501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_40
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 189
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b663ad5768ade4640800000000000000
+      internalID: 5066226901876094571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_41
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 189
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a229e108bb3aac70800000000000000
+      internalID: 8983058068235952801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_42
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 189
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0b917a6ef9445d0800000000000000
+      internalID: -3079160432219803421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_43
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 123
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e855c2585af160d0800000000000000
+      internalID: -3431186183826876189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_44
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 189
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c608e978e5d132100800000000000000
+      internalID: 81941510062243948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_45
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 189
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa942876d1c7b380800000000000000
+      internalID: -8955476207120114953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_46
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 189
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa80b5d0414828b0800000000000000
+      internalID: -5176816024943555931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_47
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 189
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb43ff29cb6f8b810800000000000000
+      internalID: 1781444942405514430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_48
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 189
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f9a250ad917e770800000000000000
+      internalID: 8639902834313830289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_49
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 189
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a48c9e9611a2f10800000000000000
+      internalID: 2245626510789069467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_50
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 189
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6314b30d59708110800000000000000
+      internalID: 1261141336064791405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_51
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 189
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5506c2584d5f322b0800000000000000
+      internalID: -5610370417657356203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_52
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 189
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c5332b049bde880800000000000000
+      internalID: -8579998027552170992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_53
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 189
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1b225c6cec140a0800000000000000
+      internalID: -6899005801048657435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_54
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 189
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e96ba0a55500b70800000000000000
+      internalID: 8863177911880293953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_55
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 189
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8f66a658d807500800000000000000
+      internalID: 391968771736533161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_56
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 189
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a578c97b1bc1fc780800000000000000
+      internalID: -8660672008794896550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_57
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 189
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9a3e88eaa70ad30800000000000000
+      internalID: 4440684122626828749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_58
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 189
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20cf01dab6d2705e0800000000000000
+      internalID: -1943534773698757630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_59
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 189
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc4530ee1de01c70800000000000000
+      internalID: 8939905977196825796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_60
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 189
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2811dea1235bbd010800000000000000
+      internalID: 1214763751311217026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_61
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 189
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d527fcc59f36a550800000000000000
+      internalID: 6171690251979269586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_62
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 189
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3adaffbbe848250800000000000000
+      internalID: 5946034346135495618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_63
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 189
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb419ca883d41c10800000000000000
+      internalID: 2023474716560411592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_64
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 189
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5534d3d20bf7b8230800000000000000
+      internalID: 3642145118309139285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_65
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 189
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f9e4ce05de64050800000000000000
+      internalID: 5784571703221722982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_66
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 189
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35fd9466ddaecc30800000000000000
+      internalID: 4381630623800751420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_67
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 189
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db615acfd2db22060800000000000000
+      internalID: 6927307182059099837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_68
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 189
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94ca241992a898a0800000000000000
+      internalID: -6298105300525595491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_69
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 189
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69818ca9aa69b4c60800000000000000
+      internalID: 7803496438834927766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_70
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 123
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0dc53bbcc5182fb0800000000000000
+      internalID: -4672460644338512627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_71
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 123
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84941a1368cd97150800000000000000
+      internalID: 5870966058170534216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_72
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 123
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f159d8053fa8ebd0800000000000000
+      internalID: -2600636142489873936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_73
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 123
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76bcb27bd64b0e10800000000000000
+      internalID: 2164901954218407549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_74
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 123
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04e30ac2e0957590800000000000000
+      internalID: -7677070686056881137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_75
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 123
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ffc013fd6512990800000000000000
+      internalID: -7412547995074494642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_76
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 123
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4724a1f64ee6e38c0800000000000000
+      internalID: -4017651890172312972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_77
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 123
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c84c38350f249f30800000000000000
+      internalID: 4581338420407453889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_78
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 123
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c972746df629e3a0800000000000000
+      internalID: -6635729706199909947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_79
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 123
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be70a41083f7a3b0800000000000000
+      internalID: -5501160688382345543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_80
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 123
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943e03bcafca062e0800000000000000
+      internalID: -2134516030222834871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_81
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 123
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f2deaf31de23e9f0800000000000000
+      internalID: -440456862300712201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_82
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 123
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9d86d3e26931600800000000000000
+      internalID: 437858714128013816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_83
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 123
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448e5615ee4e06b50800000000000000
+      internalID: 6584514367434647620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_84
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 123
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba7c06c5ecc39140800000000000000
+      internalID: 4725345721284065969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_85
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 123
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456c5329f219091c0800000000000000
+      internalID: -4498936394240637356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_86
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 123
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c4fdd4d229817a0800000000000000
+      internalID: -6406209746656867306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_87
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 123
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9958973b9f85520800000000000000
+      internalID: 2691175326587132400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_88
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 123
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b600f161139df350800000000000000
+      internalID: 6052155177122662073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_89
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 123
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04366a4560b95200800000000000000
+      internalID: 169360410089501709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_90
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 123
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a13e43b7c121ea80800000000000000
+      internalID: -8439427085125144157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_91
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 123
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ccd1cfcd5edf6c70800000000000000
+      internalID: 8966629877616860358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_92
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 123
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70afa9aa046cc8290800000000000000
+      internalID: -7886710866390091257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_93
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 123
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17280b92e7ab32740800000000000000
+      internalID: 5126145851905835633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_94
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 123
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f80800e7a352530800000000000000
+      internalID: 3829531370997190518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chef2Atlas_95
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 123
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2d1c406b7b5b4b0800000000000000
+      internalID: -5425228183706152261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Chef2Atlas_0: 8176124085151596695
+      Chef2Atlas_1: 3260400173877916276
+      Chef2Atlas_10: -7923502111714514597
+      Chef2Atlas_11: -2995342333672345549
+      Chef2Atlas_12: -350922597677933829
+      Chef2Atlas_13: 2171524109640637557
+      Chef2Atlas_14: -5340856019920559777
+      Chef2Atlas_15: -1369430346462722967
+      Chef2Atlas_16: 4169135531161746114
+      Chef2Atlas_17: 7424122966836296648
+      Chef2Atlas_18: 6691820173402784921
+      Chef2Atlas_19: 635476510150658145
+      Chef2Atlas_2: 2328655861547757944
+      Chef2Atlas_20: -3792883878799751550
+      Chef2Atlas_21: -8879204953742305414
+      Chef2Atlas_22: 5879780655103431331
+      Chef2Atlas_23: 3967832773790032188
+      Chef2Atlas_24: -369565673811797180
+      Chef2Atlas_25: 8944995339186986224
+      Chef2Atlas_26: 3370196682060495131
+      Chef2Atlas_27: -3829571447574546512
+      Chef2Atlas_28: 689248608533047582
+      Chef2Atlas_29: -8107654806077554627
+      Chef2Atlas_3: 2750977817216042659
+      Chef2Atlas_30: -7185778636633173667
+      Chef2Atlas_31: 2402959654688096753
+      Chef2Atlas_32: -6986325380380655756
+      Chef2Atlas_33: -2792382852413608467
+      Chef2Atlas_34: -7574914245229481920
+      Chef2Atlas_35: -3667900883207518403
+      Chef2Atlas_36: 795827382162742857
+      Chef2Atlas_37: 7060558852702628865
+      Chef2Atlas_38: 8433931575177864610
+      Chef2Atlas_39: 6166408908746014501
+      Chef2Atlas_4: -8822609210169702896
+      Chef2Atlas_40: 5066226901876094571
+      Chef2Atlas_41: 8983058068235952801
+      Chef2Atlas_42: -3079160432219803421
+      Chef2Atlas_43: -3431186183826876189
+      Chef2Atlas_44: 81941510062243948
+      Chef2Atlas_45: -8955476207120114953
+      Chef2Atlas_46: -5176816024943555931
+      Chef2Atlas_47: 1781444942405514430
+      Chef2Atlas_48: 8639902834313830289
+      Chef2Atlas_49: 2245626510789069467
+      Chef2Atlas_5: -334080172429522514
+      Chef2Atlas_50: 1261141336064791405
+      Chef2Atlas_51: -5610370417657356203
+      Chef2Atlas_52: -8579998027552170992
+      Chef2Atlas_53: -6899005801048657435
+      Chef2Atlas_54: 8863177911880293953
+      Chef2Atlas_55: 391968771736533161
+      Chef2Atlas_56: -8660672008794896550
+      Chef2Atlas_57: 4440684122626828749
+      Chef2Atlas_58: -1943534773698757630
+      Chef2Atlas_59: 8939905977196825796
+      Chef2Atlas_6: 6786756469035727490
+      Chef2Atlas_60: 1214763751311217026
+      Chef2Atlas_61: 6171690251979269586
+      Chef2Atlas_62: 5946034346135495618
+      Chef2Atlas_63: 2023474716560411592
+      Chef2Atlas_64: 3642145118309139285
+      Chef2Atlas_65: 5784571703221722982
+      Chef2Atlas_66: 4381630623800751420
+      Chef2Atlas_67: 6927307182059099837
+      Chef2Atlas_68: -6298105300525595491
+      Chef2Atlas_69: 7803496438834927766
+      Chef2Atlas_7: -4506160478715553008
+      Chef2Atlas_70: -4672460644338512627
+      Chef2Atlas_71: 5870966058170534216
+      Chef2Atlas_72: -2600636142489873936
+      Chef2Atlas_73: 2164901954218407549
+      Chef2Atlas_74: -7677070686056881137
+      Chef2Atlas_75: -7412547995074494642
+      Chef2Atlas_76: -4017651890172312972
+      Chef2Atlas_77: 4581338420407453889
+      Chef2Atlas_78: -6635729706199909947
+      Chef2Atlas_79: -5501160688382345543
+      Chef2Atlas_8: -2625808346033944104
+      Chef2Atlas_80: -2134516030222834871
+      Chef2Atlas_81: -440456862300712201
+      Chef2Atlas_82: 437858714128013816
+      Chef2Atlas_83: 6584514367434647620
+      Chef2Atlas_84: 4725345721284065969
+      Chef2Atlas_85: -4498936394240637356
+      Chef2Atlas_86: -6406209746656867306
+      Chef2Atlas_87: 2691175326587132400
+      Chef2Atlas_88: 6052155177122662073
+      Chef2Atlas_89: 169360410089501709
+      Chef2Atlas_9: 7303066521755095013
+      Chef2Atlas_90: -8439427085125144157
+      Chef2Atlas_91: 8966629877616860358
+      Chef2Atlas_92: -7886710866390091257
+      Chef2Atlas_93: 5126145851905835633
+      Chef2Atlas_94: 3829531370997190518
+      Chef2Atlas_95: -5425228183706152261
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

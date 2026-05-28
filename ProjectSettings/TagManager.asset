@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Interactable
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: backwall
+    uniqueID: 895085817
+    locked: 0
+  - name: behind
+    uniqueID: 1809032919
+    locked: 0
+  - name: wall
+    uniqueID: 810948013
+    locked: 0
+  - name: furnitures
+    uniqueID: 207606521
+    locked: 0
+  - name: player
+    uniqueID: 3444614301
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: ontop
+    uniqueID: 3836839225
+    locked: 0
+  - name: Food
+    uniqueID: 3100429311
+    locked: 0
+  - name: Order
+    uniqueID: 2344128671
+    locked: 0
+  m_RenderingLayers:
+  - Default

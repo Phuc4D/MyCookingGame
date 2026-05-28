@@ -1,0 +1,46 @@
+<h2>Cấu trúc công thức (Recipe) hoạt động như thế nào?</h2>
+<p class="subtitle">Nhìn vào sprites bạn có, tôi thấy có 2 kiểu thiết kế khả thi. Chọn cái nào phản ánh đúng ý tưởng của bạn.</p>
+
+<div class="options">
+  <div class="option" data-choice="linear" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Pipeline tuyến tính (Linear Pipeline)</h3>
+      <p>Mỗi nguyên liệu đi qua chuỗi cố định:<br>
+        <strong>Raw → Chop → Cook → Plate = Meal</strong><br><br>
+        Ví dụ: <code>fish → chopped_fish → cooked_fish → fish_meal</code><br><br>
+        Công thức = danh sách các bước theo thứ tự. Đơn giản, dễ implement.
+      </p>
+    </div>
+  </div>
+
+  <div class="option" data-choice="graph" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Đồ thị biến đổi (Transformation Graph)</h3>
+      <p>Nguyên liệu có thể <em>kết hợp</em> hoặc <em>biến đổi</em> tại bất kỳ bước nào:<br>
+        <strong>fish + tomato → (cook together) → cooked_fish_tomato → fish_meal_tomato</strong><br><br>
+        Ví dụ phức tạp: <code>chopped_onion + cooked_meat → meat_meal_onion</code><br><br>
+        Công thức = graph các node. Linh hoạt hơn, phản ánh đúng sprites bạn có.
+      </p>
+    </div>
+  </div>
+
+  <div class="option" data-choice="hybrid" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Hybrid: Pipeline + Kết hợp cuối</h3>
+      <p>Mỗi nguyên liệu đi qua pipeline riêng, rồi <em>kết hợp ở bước cuối</em>:<br>
+        <strong>fish → chopped_fish → cooked_fish</strong> <em>(pipeline A)</em><br>
+        <strong>tomato → chopped_tomato</strong> <em>(pipeline B)</em><br>
+        <strong>cooked_fish + chopped_tomato → fish_meal_tomato</strong> <em>(combine)</em><br><br>
+        Dễ implement hơn B, mô hình hóa tốt hơn A.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="section" style="margin-top:2rem; padding: 1rem; background: rgba(255,255,255,0.05); border-radius:8px;">
+  <p class="label">Gợi ý từ Senior Dev</p>
+  <p>Nhìn vào sprites của bạn (<code>cooked_fish_tomato</code>, <code>fish_meal_tomato</code>, <code>meat_meal_onion</code>...), ý bạn rõ ràng là <strong>Option C (Hybrid)</strong> — mỗi nguyên liệu được sơ chế riêng, sau đó kết hợp thành món. Option B mạnh hơn nhưng phức tạp hơn cần thiết ở giai đoạn này.</p>
+</div>

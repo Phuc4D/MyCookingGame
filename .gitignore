@@ -1,0 +1,61 @@
+# ===== CLAUDE AI =====
+.agent/
+.claude/
+.planning/
+.claudeignore
+.mcp.json
+CLAUDE.md
+
+# ===== UNITY =====
+# Generated folders
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+MemoryCaptures/
+
+# Unity cache
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# Asset meta files (chỉ ignore nếu không dùng version control cho assets)
+# *.meta  <- KHÔNG ignore cái này, Unity cần nó
+
+# Unity crash reports
+crashlytics-build.properties
+
+# ===== IDE =====
+# Visual Studio
+.vs/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userosscache
+*.userprefs
+
+# Rider
+.idea/
+
+# VS Code (giữ lại nếu mày share settings, bỏ nếu không)
+# .vscode/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===== BUILD ARTIFACTS =====
+*.apk
+*.aab
+*.exe
+*.x86
+*.x86_64
+*.app

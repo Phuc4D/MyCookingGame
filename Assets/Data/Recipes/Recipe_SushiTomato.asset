@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b40692271d18674da2b3c9c6567f4f6, type: 3}
+  m_Name: Recipe_SushiTomato
+  m_EditorClassIdentifier: 
+  recipeName: "Sushi C\xE0 Chua"
+  finalMeal: {fileID: 11400000, guid: af1b80665c89cff4babaca049cdbc8b6, type: 2}
+  recipeCardSprite: {fileID: -3035843555246410028, guid: 4a25ea0a9880de94d8c7ffb64a544701, type: 3}
+  scoreValue: 100
+  timeLimit: 90

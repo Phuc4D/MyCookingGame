@@ -1,0 +1,84 @@
+<h2>Design — Layer 3: Data Flow (Mọi thứ kết nối ra sao)</h2>
+<p class="subtitle">Một vòng hoàn chỉnh từ lúc Chef lấy nguyên liệu đến lúc ra món ăn.</p>
+
+<div style="margin-top:1rem; display:flex; flex-direction:column; gap:0.8rem;">
+
+  <!-- Flow diagram -->
+  <div style="background:rgba(255,255,255,0.04); border-radius:10px; padding:1.2rem;">
+    <p class="label">Ví dụ: Nấu Fish Meal Tomato</p>
+
+    <div style="display:flex; flex-direction:column; gap:0.5rem; margin-top:0.8rem; font-size:0.82rem; color:#e2e8f0;">
+
+      <div style="display:flex; align-items:center; gap:0.8rem;">
+        <div style="background:rgba(99,102,241,0.3); border-radius:6px; padding:0.4rem 0.8rem; min-width:200px; text-align:center">Chef tương tác IngredientSource(fish)</div>
+        <span style="color:#64748b">→</span>
+        <div style="color:#94a3b8">Spawn <code>FoodItem</code> với state = <code>fish.asset</code></div>
+      </div>
+
+      <div style="display:flex; align-items:center; gap:0.8rem;">
+        <div style="background:rgba(99,102,241,0.3); border-radius:6px; padding:0.4rem 0.8rem; min-width:200px; text-align:center">Chef đặt fish vào ChoppingBoard</div>
+        <span style="color:#64748b">→</span>
+        <div style="color:#94a3b8"><code>AddFood(fish)</code> → <code>TryProcess()</code> → Database: [fish] + ChopBoard match? ✅ → destroy fish, spawn <code>chopped_fish</code></div>
+      </div>
+
+      <div style="display:flex; align-items:center; gap:0.8rem;">
+        <div style="background:rgba(16,185,129,0.25); border-radius:6px; padding:0.4rem 0.8rem; min-width:200px; text-align:center">Tương tự với tomato → chopped_tomato</div>
+        <span style="color:#64748b">→</span>
+        <div style="color:#94a3b8">Cùng flow, khác asset</div>
+      </div>
+
+      <div style="display:flex; align-items:center; gap:0.8rem;">
+        <div style="background:rgba(239,68,68,0.25); border-radius:6px; padding:0.4rem 0.8rem; min-width:200px; text-align:center">Chef đặt 2 item vào Stove</div>
+        <span style="color:#64748b">→</span>
+        <div style="color:#94a3b8"><code>AddFood(chopped_fish)</code> → TryProcess: [chopped_fish] match? ❌<br><code>AddFood(chopped_tomato)</code> → TryProcess: [chopped_fish, chopped_tomato] + Stove match? ✅ → start timer 3s → spawn <code>cooked_fish_tomato</code></div>
+      </div>
+
+      <div style="display:flex; align-items:center; gap:0.8rem;">
+        <div style="background:rgba(245,158,11,0.25); border-radius:6px; padding:0.4rem 0.8rem; min-width:200px; text-align:center">Chef đặt cooked item vào PlatingTable</div>
+        <span style="color:#64748b">→</span>
+        <div style="color:#94a3b8">TryProcess: [cooked_fish_tomato] + Plating match? ✅ → spawn <code>fish_meal_tomato</code> (Meal category)</div>
+      </div>
+
+      <div style="display:flex; align-items:center; gap:0.8rem;">
+        <div style="background:rgba(139,92,246,0.25); border-radius:6px; padding:0.4rem 0.8rem; min-width:200px; text-align:center">Chef giao meal cho Serving Counter</div>
+        <span style="color:#64748b">→</span>
+        <div style="color:#94a3b8">ServingCounter query <code>TryMatchRecipe(fish_meal_tomato)</code> → tìm RecipeSO → cộng điểm, hoàn thành đơn</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Dependency diagram -->
+  <div style="background:rgba(255,255,255,0.04); border-radius:10px; padding:1.2rem;">
+    <p class="label">Dependency — ai biết về ai?</p>
+    <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap:0.8rem; margin-top:0.8rem; font-size:0.8rem; text-align:center;">
+      <div style="background:rgba(99,102,241,0.2); border-radius:8px; padding:0.8rem;">
+        <p style="color:#a5b4fc; font-weight:bold">StationBase</p>
+        <p style="color:#94a3b8; font-size:0.75rem">biết về →</p>
+        <p style="color:#e2e8f0">RecipeDatabaseSO<br>FoodItem</p>
+      </div>
+      <div style="background:rgba(16,185,129,0.2); border-radius:8px; padding:0.8rem;">
+        <p style="color:#6ee7b7; font-weight:bold">FoodItem</p>
+        <p style="color:#94a3b8; font-size:0.75rem">biết về →</p>
+        <p style="color:#e2e8f0">FoodStateSO<br>(chỉ vậy thôi)</p>
+      </div>
+      <div style="background:rgba(239,68,68,0.2); border-radius:8px; padding:0.8rem;">
+        <p style="color:#fca5a5; font-weight:bold">RecipeDatabaseSO</p>
+        <p style="color:#94a3b8; font-size:0.75rem">biết về →</p>
+        <p style="color:#e2e8f0">TransformationSO<br>RecipeSO<br>FoodStateSO</p>
+      </div>
+    </div>
+    <p style="font-size:0.78rem; color:#64748b; margin-top:0.8rem; text-align:center">
+      ✅ Chef/Player không biết gì về Recipe. Station không biết gì về Player. Logic matching chỉ sống trong RecipeDatabaseSO.
+    </p>
+  </div>
+
+  <!-- Multiplayer note -->
+  <div style="padding:0.9rem; background:rgba(99,102,241,0.08); border:1px solid rgba(99,102,241,0.3); border-radius:8px;">
+    <p class="label" style="color:#a5b4fc">Multiplayer-ready như thế nào?</p>
+    <p style="font-size:0.82rem; color:#94a3b8">
+      Station, FoodItem, RecipeDatabase hoàn toàn không phụ thuộc vào input hay số lượng player. Khi làm multiplayer sau, bạn chỉ cần thêm <code>PlayerController</code> thứ 2 gọi cùng các method <code>AddFood()</code>, <code>RemoveFood()</code> — phần còn lại không đổi gì cả.
+    </p>
+  </div>
+
+</div>

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52705895c0f18d54cad4dc3771ef49f8, type: 3}
+  m_Name: chopped_meat
+  m_EditorClassIdentifier: 
+  id: chopped_meat
+  displayName: Chopped Meat
+  sprite: {fileID: 541467295124363251, guid: 7f35bc37a15b6c543bc3d2f0fc04fcd8, type: 3}
+  category: 1
