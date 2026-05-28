@@ -59,3 +59,50 @@ Desktop.ini
 *.x86
 *.x86_64
 *.app
+
+# ===== WEBGL BUILD =====
+WebGL-Build/
+WebGL Build/
+
+# ===== AI TOOLS =====
+.superpowers/
+docs/superpowers/
+scripts/
+.agent/
+.claude/
+.planning/
+.claudeignore
+.mcp.json
+CLAUDE.md
+
+# ===== UNITY =====
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+crashlytics-build.properties
+
+# ===== IDE =====
+.vs/
+*.csproj
+*.sln
+*.suo
+*.user
+.idea/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===== BUILD ARTIFACTS =====
+*.apk
+*.aab
+*.exe
+*.x86
+*.x86_64
+*.app
